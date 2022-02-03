@@ -18,7 +18,6 @@ module.exports = {
   include: [
     'src/{core,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
     'x-pack/plugins/**/*.{js,mjs,jsx,ts,tsx}',
-    'packages/**/*.{js,mjs,jsx,ts,tsx}',
   ],
   exclude: [
     '**/target/**',
@@ -26,6 +25,7 @@ module.exports = {
     '**/*mock*.{ts,tsx}',
     '**/*.test.{ts,tsx}',
     '**/*.spec.{ts,tsx}',
+    '**/types.ts',
     '**/*.d.ts',
     '**/index.{js,ts,tsx}',
   ],
