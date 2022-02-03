@@ -26,6 +26,7 @@ module.exports = {
   'report-dir': 'target/kibana-coverage/functional-combined',
   reporter: ['html', 'json-summary'],
   include: [
+    'packages/**/*.{js,mjs,jsx,ts,tsx}',
     'src/{core,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
     'x-pack/plugins/**/*.{js,mjs,jsx,ts,tsx}',
   ],

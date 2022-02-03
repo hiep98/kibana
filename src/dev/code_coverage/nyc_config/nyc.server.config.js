@@ -18,9 +18,9 @@ module.exports = {
   include: [
     'src/{core,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
     'x-pack/plugins/**/*.{js,mjs,jsx,ts,tsx}',
+    'packages/**/*.{js,mjs,jsx,ts,tsx}',
   ],
   exclude: [
-    'packages/**',
     '**/target/**',
     '**/{__test__,__snapshots__,__examples__,*mock*,tests,test_helpers,integration_tests,types}/**/*',
     '**/*mock*.{ts,tsx}',
