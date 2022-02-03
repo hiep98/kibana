@@ -16,9 +16,8 @@ module.exports = {
   reporter: ['json'],
   all: true,
   include: [
-    'examples/**/*.{js,mjs,jsx,ts,tsx}',
-    'src/{core,fixtures,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
-    'x-pack/{examples,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
+    'src/{core,plugins}/**/*.{js,mjs,jsx,ts,tsx}',
+    'x-pack/plugins/**/*.{js,mjs,jsx,ts,tsx}',
   ],
   exclude: [
     'packages/**',
